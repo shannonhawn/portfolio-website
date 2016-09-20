@@ -9,12 +9,20 @@ box-sizing: inherit;
 margin:0;
 }
 
-html {
+html{
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust:100%;
+}
+
+main{
+  background-color: #b0d2d7;
+  overflow: hidden;
+  clear: both;
+  padding: 3em;
+  position: relative;
 }
 
 body{
