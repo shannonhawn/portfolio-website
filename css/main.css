@@ -8,3 +8,22 @@
 box-sizing: inherit;
 margin:0;
 }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust:100%;
+}
+
+body{
+  font-family: 'Bungee Inline', cursive;
+  margin: 0;
+  line-height: 1.3em;
+  font-size: 13px;
+  color: #ef4d4d ;
+  text-align: center;
+  padding: 1em 8em 1em 8em;
+  width: 100%;
+}
