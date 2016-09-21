@@ -25,7 +25,7 @@ main{
   position: relative;
 }
 
-body{
+h1{
   font-family: 'Bungee Inline', regular;
   margin: 0;
   line-height: 1.3em;
@@ -36,7 +36,7 @@ body{
   width: 100%;
 }
 
-h1{
+h2{
   font-size: 36px;
   width:100%;
   text-align: center;
