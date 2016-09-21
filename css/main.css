@@ -91,3 +91,15 @@ main{
   float: left;
   padding: 1em;
 }
+
+nav ul{
+  width: 100%;
+}
+
+nav li{
+  display: inline-block;
+  width: 100%;
+  padding: 0.2em;
+  margin: 0;
+  list-style-type: none;
+}
