@@ -30,7 +30,7 @@ h1{
   margin: 0;
   line-height: 1.3em;
   font-size: 13px;
-  color: #ef4d4d ;
+  color: #ef4d4d;
   text-align: center;
   padding: 1em 8em 1em 8em;
   width: 100%;
@@ -49,6 +49,31 @@ h2{
   line-height: 1em;
 }
 
+a{
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.75em;
+}
+
+a:hover{
+  color:#ef4d4d;
+}
+
+nav ul{
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+  width: 20%;
+  padding: 1em;
+  list-style-type: none;
+}
 
 @media only screen and ( min-width: 20em) {
 
