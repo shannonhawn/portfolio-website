@@ -121,14 +121,69 @@ nav li{
   margin: 0;
   list-style-type: none;
 }
+}
 
 /* Med */
+@media only screen and (min-width: 38em) {
+
+html{
+  font-size: 110%;
+  line-height: 1.4;
+}
+
+main{
+  float: right;
+  width: 60%;
+}
+
+h1{
+  font-size: 34px;
+  padding-left: 0;
+  text-align: right;
+  bottom: 2em;
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+  max-height: inherit;
+}
+
+nav li{
+  display: inline-block;
+  width: 30%;
+  padding: 0.2em;
+  margin: 0;
+  list-style-type: none;
+}
+}
 
 /* Lrg */
+@media only screen and (min-width: 60em) {
+
+html{
+  font-size: 140%;
+  line-height: 1.5;
+}
 
 header{
   margin: 0;
   overflow: hidden;
+}
+
+h1{
+  font-size: 44px;
+  padding-left: 0;
+  text-align: right;
+  bottom: 2em;
+  width: 100%;
+  text-align: center;
+  margin-left: 0;
+  max-height: inherit;
+}
+
+.bio{
+  display: block;
+  margin:0;
+}
 }
 
 /* Xlrg */
