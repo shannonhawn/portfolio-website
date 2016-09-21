@@ -17,14 +17,6 @@ html{
   text-size-adjust:100%;
 }
 
-main{
-  background-color: #b0d2d7;
-  overflow: hidden;
-  clear: both;
-  padding: 3em;
-  position: relative;
-}
-
 header{
   padding: 0;
   margin: 0;
@@ -34,8 +26,16 @@ header{
   max-height: inherit;
 }
 
-h1{
-  font-family: 'Bungee Inline', regular;
+main{
+  background-color: #b0d2d7;
+  overflow: hidden;
+  clear: both;
+  padding: 3em;
+  position: relative;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   line-height: 1.3em;
   font-size: 13px;
@@ -45,25 +45,18 @@ h1{
   width: 100%;
 }
 
-h2{
+h1{
   font-size: 36px;
   width:100%;
   text-align: center;
   padding: .5em;
   margin:0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Bungee Inline', regular;
   color: #ef4d4d;
   overflow: hidden;
   line-height: 1em;
 }
-
-.bio{
-  display: block;
-  margin: 0;
-  width: 100%;
-}
-
 
 a{
   color: white;
@@ -77,11 +70,18 @@ a:hover{
   color:#ef4d4d;
 }
 
+.bio{
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
 nav ul{
   display: inline-block;
   width: 100%;
   padding: 0;
   list-style-type: none;
+  background-color: #b0d2d7;
 }
 
 nav li{
@@ -89,8 +89,10 @@ nav li{
   width: 20%;
   padding: 1em;
   list-style-type: none;
+  background-color: #b0d2d7;
 }
 
+/* Small */
 @media only screen and ( min-width: 20em) {
 
 html {
@@ -119,3 +121,14 @@ nav li{
   margin: 0;
   list-style-type: none;
 }
+
+/* Med */
+
+/* Lrg */
+
+header{
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Xlrg */
