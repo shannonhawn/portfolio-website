@@ -26,7 +26,7 @@ main{
 }
 
 body{
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Inline', regular;
   margin: 0;
   line-height: 1.3em;
   font-size: 13px;
@@ -34,4 +34,17 @@ body{
   text-align: center;
   padding: 1em 8em 1em 8em;
   width: 100%;
+}
+
+h1{
+  font-size: 36px;
+  width:100%;
+  text-align: center;
+  padding: .5em;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  overflow: hidden;
+  line-height: 1em;
 }
