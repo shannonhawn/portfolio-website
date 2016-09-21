@@ -47,10 +47,10 @@ body{
 
 h1{
   font-size: 56px;
-  width:100%;
+  width: 100%;
   text-align: center;
   padding: .5em;
-  margin:0;
+  margin: 0;
   box-sizing: border-box;
   font-family: 'Bungee Inline', regular;
   color: #ef4d4d;
@@ -95,10 +95,10 @@ nav li{
 /* Small */
 @media only screen and ( min-width: 20em) {
 
-html {
+html{
 font-size: 80%;
-line-height: 1.4
-  }
+line-height: 1.4;
+}
 
 h1{
   font-size:24px;
@@ -147,6 +147,10 @@ h1{
   max-height: inherit;
 }
 
+nav ul{
+ width: calc(100% / 3);
+}
+
 nav li{
   display: inline-block;
   width: 30%;
@@ -180,10 +184,44 @@ h1{
   max-height: inherit;
 }
 
+p{
+  float: left;
+  width: 50%;
+  font-size: 16px;
+}
+
 .bio{
   display: block;
   margin:0;
 }
+
+nav ul{
+ width: calc(100% / 3);
+}
 }
 
 /* Xlrg */
+@media only screen and (min-width: 90em) {
+
+  html{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  h1{
+    font-size: 54px;
+    padding-left: 0;
+    text-align: right;
+    bottom: 2em;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    max-height: inherit;
+  }
+
+  p{
+    float: left;
+    width: 70%;
+    font-size: 16px;
+  }
+}
