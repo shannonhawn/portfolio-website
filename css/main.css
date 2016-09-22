@@ -77,6 +77,14 @@ a:hover{
   text-align: center;
 }
 
+nav{
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  background-color: #b0d2d7;
+}
+
+
 nav ul{
   display: inline-block;
   width: 100%;
