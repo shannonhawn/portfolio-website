@@ -58,6 +58,21 @@ h1{
   line-height: 1em;
 }
 
+p{
+  text-align:left;
+  padding:.5em;
+  font-size: 15px;
+  width:100%;
+  text-align: center;
+  padding: 0.5em;
+  margin:0;
+  box-sizing: border-box;
+  font-family:'Montserrat', sans-serif;
+  color:black;
+  overflow:hidden;
+}
+
+
 a{
   color: white;
   text-align: center;
