@@ -88,7 +88,7 @@ nav ul{
 nav li{
   display: inline-block;
   width: 20%;
-  padding: 1em;
+  padding: 0;
   list-style-type: none;
   background-color: #b0d2d7;
 }
