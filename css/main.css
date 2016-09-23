@@ -36,6 +36,7 @@ header{
   width: 30%;
   display: block;
   margin: auto;
+  padding-top: 3em;
 }
 
 h1{
@@ -51,6 +52,7 @@ p{
   font-size: 16px;
   color: #ef4d4d;
   text-align: center;
+  position: relative;
   padding: 1em 8em 1em 8em;
   width: 100%;
 }
@@ -75,17 +77,14 @@ a:hover{
 }
 
 nav{
-  display: inline-block;
   width: 100%;
   padding: 0;
   background-color: #b0d2d7;
+  padding: 1em 2em;
 }
 
-
 nav ul{
-  display: inline-block;
   width: 100%;
-  padding: 0;
   list-style-type: none;
   background-color: #b0d2d7;
   text-align: center;
