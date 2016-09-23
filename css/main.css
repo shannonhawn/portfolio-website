@@ -40,7 +40,7 @@ header{
 }
 
 h1{
-  font-size: 1.75em;
+  font-size: 2.75em;
   font-family: 'Bungee Inline', regular;
   color: #ef4d4d;
 }
@@ -49,11 +49,11 @@ p{
   font-family: 'Josefin Slab', serif;
   margin: 0;
   line-height: 1.5em;
-  font-size: 16px;
+  font-size: 18px;
   color: #ef4d4d;
   text-align: center;
   position: relative;
-  padding: 1em 8em 1em 8em;
+  padding: 1em 0 0 1em;
   width: 100%;
 }
 
@@ -62,7 +62,7 @@ a{
   text-align: center;
   box-sizing: border-box;
   margin: 0;
-  padding: 0.75em;
+  padding: 0;
 }
 
 a:hover{
@@ -76,31 +76,18 @@ a:hover{
   text-align: center;
 }
 
-nav{
-  width: 100%;
-  padding: 0;
-  background-color: #b0d2d7;
+footer{
   padding: 1em 2em;
-}
-
-nav ul{
-  width: 100%;
-  list-style-type: none;
   background-color: #b0d2d7;
   text-align: center;
 }
 
-nav li{
-  display: inline-block;
-  width: 20%;
-  padding: 0;
-  list-style-type: none;
-  background-color: #b0d2d7;
-  text-align: center;
+.social{
+  width:25%;
 }
 
 /* Small */
-@media only screen and ( min-width: 20em) {
+@media only screen and (min-width: 25em) {
 
 html{
 font-size: 60%;
@@ -108,11 +95,13 @@ line-height: 1.4;
 }
 
 h1{
-  font-size:44px;
+  font-size: 2.75em;
   text-align: center;
 }
 
 p{
+  width: 70%;
+  margin: 1em auto;
   text-align: center;
 }
 
@@ -121,18 +110,8 @@ main{
   padding: 0;
 }
 
-nav ul{
-  width: 100%;
-  text-align: center;
-}
-
-nav li{
-  display: inline-block;
-  width: 100%;
-  padding: 0.2em;
-  margin: 0;
-  list-style-type: none;
-  text-align: center;
+.social{
+  width:10%;
 }
 }
 
@@ -160,25 +139,13 @@ h1{
 
 p{
   font-size: 24px;
-  padding-left: 0;
-  bottom: 2em;
   width: 100%;
   text-align: center;
-  max-height: inherit;
+  padding: 1em 0 0 1em;
 }
 
-nav ul{
- width: calc(100%);
- text-align: center;
-}
-
-nav li{
-  display: inline-block;
-  width: 30%;
-  padding: 0.2em;
-  margin: 0;
-  list-style-type: none;
-  text-align: center;
+.social{
+  width:10%;
 }
 }
 
@@ -197,50 +164,19 @@ header{
 
 h1{
   font-size: 64px;
-  padding-left: 0;
-  bottom: 2em;
+  padding-bottom: 2em;
   width: 100%;
   text-align: center;
-  margin-left: 0;
   max-height: inherit;
 }
 
 p{
-  font-size: 34px;
-  padding-left: 0;
   text-align: center;
   bottom: 2em;
-  width: 100%;
-  max-height: inherit;
+  padding: 1em 0 0 1em;
 }
 
-nav ul{
- width: calc(100%);
- text-align: center;
+.social{
+  width: 8%;
 }
-}
-
-/* Xlrg */
-@media only screen and (min-width: 90em) {
-
-  html{
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-  h1{
-    font-size: 54px;
-    padding-left: 0;
-    text-align: right;
-    bottom: 2em;
-    width: 100%;
-    text-align: center;
-    margin-left: 0;
-    max-height: inherit;
-  }
-
-  p{
-    text-align: center;
-    font-size: 14px;
-  }
 }
