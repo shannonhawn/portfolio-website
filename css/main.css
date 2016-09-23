@@ -18,16 +18,6 @@ box-sizing: inherit;
 margin:0;
 }
 
-header{
-  text-align: center;
-}
-
-.me{
-  width: 70%;
-  display: block;
-  margin: auto;
-}
-
 body{
   margin:0;
 }
@@ -38,17 +28,20 @@ main{
   padding-top: 3em;
 }
 
-h1{
-  font-size: 96px;
-  width: 100%;
+header{
   text-align: center;
-  padding: .25em 0 0 .5em;
-  margin: 0;
-  box-sizing: border-box;
+}
+
+.me{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+
+h1{
+  font-size: 1.75em;
   font-family: 'Bungee Inline', regular;
   color: #ef4d4d;
-  overflow: hidden;
-  line-height: 1em;
 }
 
 p{
